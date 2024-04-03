@@ -8,6 +8,8 @@
   <li>Main.py: Runs the visualization of the continuum robot (roto-translational, bending, and translational module configuration)</li>
   <li>testProcedue.py: Includes necessary functions to initialize the test setup (EM tracker, syringe pump)</li>
   <li>Continuum.py: Includes necessary functions to inprepret the sensor calibration constants, computes homogeneous transformation matrices, and live plots the continnum robot shape</li>
+  <li>pumplib.py: Includes commands to control Harvard Apparatus Syringe Pump (Pump 11 Elite)</li>
+  <li>NDI.py: Includes commands to control Aurora Magnetic Tracker</li>
 </ul>  
 </body>
 </html>
