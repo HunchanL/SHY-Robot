@@ -6,8 +6,7 @@
   <ul>
     <li>Main.py: Initialize and runs the ionic resistive sensor calibration. Uncomment to calibrate a specific module. </li>
     <li>test_procedure.py: Includes functions that automatically runs the sensor calibration.</li>
-  </ul>ul>
-  
+  </ul>
 <p><b>SHY continuum robot real time shape sensing</b></p>
 <ul>
   <li>Main.py: Runs the visualization of the continuum robot (roto-translational, bending, and translational module configuration)</li>
