@@ -15,9 +15,11 @@
   <li>pumplib.py: Includes commands to control Harvard Apparatus Syringe Pump (Pump 11 Elite)</li>
   <li>NDI.py: Includes commands to control Aurora Magnetic Tracker</li>
   <li>Demo:
+    <ul>
     <li>PostProcess_image.py: Intreprets and plots the collected ionic resistive sensor dataset </li>
     <li>PostProcess_compute.py: Includes functions to read sensor dataset, and computes homogeneous tranformation matrices </li>
     <li>Consfiguration states.xlsx: Actual sample dataset presented in Figure 7 from the main manuscript </li>
+    </ul>
   </li>
 </ul>  
 </body>
