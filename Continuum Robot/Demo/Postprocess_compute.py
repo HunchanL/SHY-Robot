@@ -116,7 +116,7 @@ def translational(sensor_reading):
     linear = [2551, -9213.4, 12472, -7512.4, 1702.6]
     const = linear
 
-    offset_z = 0.1 #Initial offset created from the actuator
+    offset_z = 0.1 #Necessary offset to prevent air being the sensor medium
 
     x = 0
     y = 0
@@ -136,8 +136,7 @@ def bending(sensor_reading):
     bend = [6623.3, -27365, 42245, -28995, 7492]
     const = bend
 
-    offset_b = 2 #Initial offset created from the actuator
-
+    offset_b = 2 ##Necessary offset to prevent air being the sensor medium
     theta = const[0] * sensor_reading ** 4 + const[1] * sensor_reading ** 3 + const[2] * sensor_reading ** 2 + const[
         3] * sensor_reading + const[4]
 
@@ -168,7 +167,7 @@ def roto(sensor_reading):
     h = const[0] * sensor_reading ** 4 + const[1] * sensor_reading ** 3 + const[2] * sensor_reading ** 2 + const[
         3] * sensor_reading + const[4]
 
-    h = h + offset_h
+    h = h + offset_h #Necessary offset to prevent air being the sensor medium
 
     th_i = 94  # deg
     r = 5.1  # mm
